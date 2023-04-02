@@ -1,0 +1,18 @@
+{
+  "name": "blog_cms",
+  "version": "1.0.0",
+  "description": "to create a blog that has cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Ajmal akram",
+  "license": "ISC"
+}

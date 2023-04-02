@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog CMS</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="script.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1>Blog CMS</h1>
+		<nav>
+			<ul>
+				<li><a href="#" id="viewPostsBtn">View Posts</a></li>
+				<li><a href="#" id="addPostBtn">Add Post</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="viewPostsSection">
+			<h2>Blog Posts</h2>
+			<ul id="postsList"></ul>
+		</section>
+
+		<section id="addPostSection">
+			<h2>Add New Post</h2>
+			<form id="addPostForm">
+				<label for="titleInput">Title:</label>
+				<input type="text" id="titleInput" name="titleInput"><br>
+
+				<label for="contentTextarea">Content:</label>
+				<textarea id="contentTextarea" name="contentTextarea"></textarea><br>
+
+				<label for="imageInput">Image:</label>
+				<input type="file" id="imageInput" name="imageInput"><br>
+
+				<label for="videoInput">Video:</label>
+				<input type="file" id="videoInput" name="videoInput"><br>
+
+				<input type="submit" value="Add Post">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Blog CMS</p>
+	</footer>
+</body>
+</html>
